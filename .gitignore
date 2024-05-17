@@ -1,0 +1,6 @@
+api/node_modules
+api/package-lock.json
+front/build
+front/node_modules
+front/package-lock.json
+front/build

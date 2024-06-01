@@ -41,6 +41,8 @@ export class AjoutComponent {
   onSubmit(): void {
     if (this.addPersonForm.valid) {
       console.log(this.addPersonForm.value);
+      this.addPersonForm.value.proprietes = this.addPersonForm.value.proprietes.filter((prop: { entreprise: string; administration: string; }) => prop.entreprise !== '' && prop.administration !== '');
+      console.log(this.addPersonForm.value);
       this.apiService.addContact(this.addPersonForm.value).subscribe(
         (response) => {
           console.log(response);

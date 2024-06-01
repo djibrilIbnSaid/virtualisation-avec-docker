@@ -47,7 +47,7 @@ export class DetailComponent {
   }
 
   updateContact(): void {
-    this.person.proprietes = this.person.proprietes?.filter(prop => prop.entreprise !== '' || prop.administration !== '');
+    this.person.proprietes = this.person.proprietes?.filter(prop => prop.entreprise !== '' && prop.administration !== '');
     this.apiSvc.updateContact(this.person).subscribe((response) => {
       console.log(response);
       alert("Mise à jour effectuée avec succès !");

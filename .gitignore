@@ -14,5 +14,6 @@ front/.gitignore
 front/.angular/
 
 data/*
+rapport/*
 
 .DS_Store

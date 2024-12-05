@@ -1,0 +1,89 @@
+Liste de cadrage pour l’utilisation de l’IA dans une entreprise
+1. Collecte des données
+Pas besoin d’IA :
+
+Les outils classiques (CRM, ERP, outils ETL, capteurs IoT, APIs) suffisent pour collecter les données nécessaires.
+Exemple : Un CRM collecte les données clients sans intervention d’IA.
+Pourquoi pas d’IA ?
+
+La collecte repose sur des règles simples et linéaires. L’ajout de l’IA ne serait pas rentable à ce stade.
+Focus sur l’intégration des bonnes sources de données plutôt que sur leur analyse immédiate.
+2. Nettoyage et structuration des données
+Pas besoin d’IA :
+
+Les outils comme Python (pandas), SQL ou des logiciels ETL automatisés permettent de nettoyer les données (doublons, valeurs manquantes, normalisation).
+Exemple : Un e-commerçant peut structurer son inventaire avec des outils comme Alteryx.
+Pourquoi pas d’IA ?
+
+Le nettoyage et la structuration suivent souvent des règles fixes, explicables et répétitives.
+Un bon pipeline de données suffit pour garantir des résultats fiables.
+3. Analyse exploratoire des données (compréhension initiale)
+Usage limité de l’IA :
+
+Les outils comme Tableau ou Power BI peuvent déjà identifier les grandes tendances visuelles et produire des dashboards interactifs.
+Exemple : Visualiser les performances d’un produit dans différents marchés.
+Quand utiliser l’IA ?
+
+Si le volume des données est très élevé et que des patterns complexes ou des relations cachées sont à découvrir.
+Exemple : Identifier des segments clients à partir de comportements cachés via le clustering (k-means, DBSCAN).
+4. Prédictions et recommandations
+IA nécessaire :
+
+L’IA permet d’analyser des données passées pour prédire des résultats ou proposer des recommandations adaptées.
+Exemple :
+Un site de e-commerce utilise un modèle de recommandation basé sur les achats passés.
+Un système de maintenance prédictive pour réduire les temps d’arrêt des machines industrielles.
+Pourquoi l’IA est nécessaire ici ?
+
+Les modèles d’apprentissage automatique (Machine Learning) sont capables de comprendre des relations complexes que les outils traditionnels ne peuvent pas modéliser.
+5. Automatisation et optimisation des processus internes
+IA nécessaire :
+
+Optimiser les processus décisionnels ou les flux de travail.
+Exemple :
+Automatiser la planification logistique avec un modèle optimisant les itinéraires en temps réel.
+Prendre des décisions dynamiques sur la gestion des stocks grâce à des modèles prédictifs.
+Pourquoi l’IA est utile ici ?
+
+Elle s’adapte à des environnements changeants et apprend des comportements passés.
+6. Génération de contenu ou d’idées (génération augmentée)
+IA nécessaire :
+
+Générer des supports ou des solutions de manière créative et personnalisée.
+Exemple :
+Un assistant conversationnel basé sur ChatGPT pour aider le service client.
+Un outil de génération de designs ou d’idées pour des campagnes marketing.
+Pourquoi l’IA est nécessaire ici ?
+
+L’IA excelle dans les tâches nécessitant de la créativité ou de la génération automatisée à grande échelle.
+7. Interaction client et personnalisation
+IA nécessaire :
+
+Fournir une expérience client intelligente et réactive.
+Exemple :
+Chatbots capables de répondre en langage naturel.
+Personnalisation des emails marketing ou des publicités en fonction des préférences des utilisateurs.
+Pourquoi l’IA est utile ici ?
+
+Elle permet de traiter des volumes importants de demandes tout en améliorant la satisfaction grâce à des réponses précises et personnalisées.
+8. Analyse des données en temps réel
+IA nécessaire :
+
+Traiter des flux de données en temps réel pour anticiper ou réagir rapidement.
+Exemple :
+Détection de fraudes dans des transactions bancaires.
+Suivi en temps réel des performances des campagnes publicitaires en ligne.
+Pourquoi l’IA est utile ici ?
+
+L’IA peut gérer des flux massifs et s’adapter immédiatement aux nouveaux contextes.
+9. Détection et gestion des risques
+IA nécessaire :
+
+Identifier des anomalies ou des risques potentiels dans les données.
+Exemple : Un modèle d’IA détecte des comportements suspects dans les systèmes d’information d’une entreprise.
+Pourquoi l’IA est utile ici ?
+
+Les modèles prédictifs peuvent anticiper des événements improbables mais critiques.
+Conclusion générale pour une entreprise
+Quand éviter l’IA : Pour les tâches simples, récurrentes et bien maîtrisées (collecte, nettoyage de données). Optimiser les outils existants est souvent suffisant.
+Quand adopter l’IA : Pour les processus complexes nécessitant des prédictions, des recommandations, de la personnalisation ou une génération augmentée. L’IA devient un levier puissant pour offrir des solutions adaptées à grande échelle.
